@@ -1,0 +1,28 @@
+/* GENERAL */
+/* /GENERAL */
+
+/* HEADER */
+header {
+  height: 70px;
+  width: 100%;
+  background-color: red;
+}
+/* /HEADER */
+
+/* MAIN */
+/* ASIDE-LEFT */
+.mf-aside {
+  background-color: aqua;
+}
+/* /ASIDE-LEFT */
+
+
+/* RIGHT CONTENT MAIN */
+.mf-content-main {
+  background-color: black;
+  height: 1200px;
+  overflow: auto;
+  height: calc(100vh - 70px);
+}
+/* /RIGHT CONTENT MAIN */
+/* /MAIN */
