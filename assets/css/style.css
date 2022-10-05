@@ -57,7 +57,6 @@ header {
 
 /* RIGHT CONTENT MAIN */
 .mf-content-main {
-  background-color: black;
   overflow: auto;
   height: calc(100vh - 70px);
   width: 90%;
@@ -72,7 +71,14 @@ header {
   font-size: .8rem;
 }
 
+table th:first-child, td:first-child {
+  text-align: left;
+}
 
+th,
+td {
+  text-align: center;
+}
 
 
 /* /RIGHT CONTENT MAIN */
