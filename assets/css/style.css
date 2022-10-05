@@ -70,6 +70,17 @@ header {
   width: 90%;
 }
 
+.mf-top-main {
+  color: white;
+}
+
+.mf-top-main span.badge {
+  background-color: rgba(0,0,0,0.3);
+  font-size: .8rem;
+}
+
+
+
 
 /* /RIGHT CONTENT MAIN */
 /* /MAIN */
