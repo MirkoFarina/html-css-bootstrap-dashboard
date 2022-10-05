@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -20,8 +21,8 @@
     <nav class="navbar navbar-expand-lg h-100 d-flex align-items-center">
       <div class="container-fluid mf-bg-header flex-nowrap">
         <a class="navbar-brand" href="#">
-          <img  class="d-none d-md-inline-block"  src="assets/img/logo.svg" alt="logo">
-          <img  class="d-md-none logo-mobile"  src="assets/img/mobile-logo.png" alt="logo">
+          <img  class="d-none d-lg-inline-block"  src="assets/img/logo.svg" alt="logo">
+          <img  class="d-lg-none logo-mobile"  src="assets/img/mobile-logo.png" alt="logo">
         </a>
         
           <form class="container-fluid">
@@ -62,47 +63,79 @@
     </nav>
   </header>
 
-  <main>
-    <div class="container-fluid ">
-      <div class="row">
-        <div class="col mf-aside d-flex flex-column justify-content-between py-2">
-          <div class="mf-top">
+  <main class="d-flex">
+    <div class=" mf-aside d-flex flex-column justify-content-between py-2">
+      <div class="mf-background-img"></div>
+      <nav class="mf-top d-flex justify-content-center">
+       <ul class="p-0  list-unstyled">
+        <li class="pb-4">
+          <a class="text-decoration-none" href="#">
+            <i class="fa-solid fa-house"></i>
+            <span class="d-none d-lg-inline">
+              Home
+            </span>
+          </a>
+        </li>
+        <li class="pb-4">
+          <a class="text-decoration-none" href="#">
+            <i class="fa-solid fa-chart-simple"></i>
+            <span class="d-none d-lg-inline">
+              Stats
+            </span>
+          </a>
+        </li>
+        <li class="pb-4">
+          <a class="text-decoration-none" href="#">
+            <i class="fa-solid fa-signal"></i>
+            <span class="d-none d-lg-inline">
+              Signals
+            </span>
+          </a>
+        </li>
+       </ul>
+      </nav>
+      <div class="mf-bottom d-flex justify-content-center">
+       <ul class="p-0  list-unstyled">
+        <li>
+          <a class="text-decoration-none" href="#">
+          <i class="fa-solid fa-gear"></i>
+          <span class="d-none d-lg-inline">
+            Admin
+          </span>
+        </a>
+      </li>
+       </ul>
+      </div>
+    </div>
+    
+    <div class="mf-content-main">
+      <div class="container-fluid">
+        <div class="row ">
+          <!-- intestazione content main -->
+          <div class="col-12 bg-danger">
 
           </div>
-          <div class="mf-bottom">
-            
+          <!-- colonna sinistra dopo md -->
+          <div class="col-md-8 bg-light">
+            <div class="row">
+              <!-- prossime classi -->
+              <div class="col-12 bg-dark"></div>
+              <!-- f.a.q -->
+              <div class="col-12 bg-dark"></div>
+            </div>
           </div>
-        </div>
-        
-        <div class="col-11 mf-content-main">
-          <div class="container-fluid">
-            <div class="row ">
-              <!-- intestazione content main -->
-              <div class="col-12 bg-danger">
-
-              </div>
-              <!-- colonna sinistra dopo md -->
-              <div class="col-md-8 bg-light">
-                <div class="row">
-                  <!-- prossime classi -->
-                  <div class="col-12 bg-dark"></div>
-                  <!-- f.a.q -->
-                  <div class="col-12 bg-dark"></div>
-                </div>
-              </div>
-              <!-- colonna destra dopo md-->
-              <div class="col-md-4 bg-light">
-                <div class="row">
-                  <!-- todo -->
-                  <div class="col-12 bg-dark"></div>
-                  <!-- grafico -->
-                  <div class="col-12 bg-dark"></div>
-                </div>
-              </div>
+          <!-- colonna destra dopo md-->
+          <div class="col-md-4 bg-light">
+            <div class="row">
+              <!-- todo -->
+              <div class="col-12 bg-dark"></div>
+              <!-- grafico -->
+              <div class="col-12 bg-dark"></div>
             </div>
           </div>
         </div>
       </div>
+    </div>        
   </main>
  
 </body>

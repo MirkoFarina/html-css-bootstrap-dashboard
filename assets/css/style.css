@@ -39,14 +39,25 @@ header {
 /* MAIN */
 /* ASIDE-LEFT */
 .mf-aside {
-  background-color: aqua;
+  width: 10%;
+  position: relative;
+  background-color: #051e34;
 }
 
-.mf-top, .mf-bottom {
-  background-color: blueviolet;
-  border: 1px solid black;
-  height: 100px ;
-  width: 100%;
+.mf-background-img{
+  position: absolute;
+  left:0;
+	right:0;
+	top:0;
+	bottom:0;
+  background-image: url(../img/sidebar-bg.png);
+}
+.mf-aside  i {
+  font-size: 1.5rem;
+}
+
+.mf-aside a {
+  color: white;
 }
 /* /ASIDE-LEFT */
 
@@ -56,6 +67,7 @@ header {
   background-color: black;
   overflow: auto;
   height: calc(100vh - 70px);
+  width: 90%;
 }
 
 
