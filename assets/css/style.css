@@ -46,7 +46,8 @@ header {
 }
 
 .mf-aside  i {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  padding-right: 10px;
 }
 
 .mf-aside a {
@@ -71,6 +72,13 @@ header {
   font-size: .8rem;
 }
 
+th:nth-child(2), 
+td:nth-child(2), 
+th:nth-child(3), 
+td:nth-child(3) {
+  display: none;
+}
+
 table th:first-child, td:first-child {
   text-align: left;
 }
@@ -80,6 +88,43 @@ td {
   text-align: center;
 }
 
+td:not(td:first-child){
+  width: 110px;
+}
+
+tr td img {
+  width: 30px;
+  vertical-align: middle;
+}
+
+tr td:last-child span{
+  display: inline-block;
+  border: 1px solid #6c757d;
+  font-size: .9rem;
+  color: #6c757d;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
 
 /* /RIGHT CONTENT MAIN */
 /* /MAIN */
+
+
+/* MEDIA */
+@media screen and (min-width: 660px){
+  th:nth-child(2), 
+  td:nth-child(2) {
+    display: table-cell;
+  }
+}
+@media screen and (min-width: 538px){
+  th:nth-child(3), 
+  td:nth-child(3) {
+    display: table-cell;
+  }
+}
+
+/* /MEDIA */
