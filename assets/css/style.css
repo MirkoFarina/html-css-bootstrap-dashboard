@@ -38,7 +38,7 @@ header {
   margin-left: 10px;
 }
 
-.nav-item .nav-link .bi-bell-fill {
+.mf-dropdown .bi-bell-fill {
   color: #FF8F00; 
   box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.1);
 }
