@@ -13,6 +13,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">   
 
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -160,7 +163,7 @@
             </div>
           </div>
           <!-- colonna sinistra dopo md -->
-          <div class="col-lg-8 bg-light">
+          <div class="col-lg-8">
             <div class="row">
               <!-- prossime classi -->
               <div class="col-12 mb-4">
@@ -354,7 +357,7 @@
                 </div>
               </div>
               <!-- f.a.q -->
-              <div class="col-12">
+              <div class="col-12 mb-4">
                 <div class="card-header bg-secondary bg-opacity-10 border ps-4 pt-2 rounded-top">
                   <h2>
                     F.A.Q.
@@ -405,12 +408,51 @@
             </div>
           </div>
           <!-- colonna destra dopo md-->
-          <div class="col-lg-4 bg-light">
+          <div class="col-lg-4">
             <div class="row">
               <!-- todo -->
-              <div class="col-12 bg-dark"></div>
+              <div class="col-12 mb-4">
+                <div class="card-header bg-secondary bg-opacity-10 border ps-4 pt-2 rounded-top">
+                  <h2>
+                    Todo
+                  </h2>
+                </div>
+
+                <div class="card-body border-end border-start border-bottom rounded-bottom p-3">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                      <label class="form-check-label" for="firstCheckbox">Avvisare gli alunni</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                      <label class="form-check-label" for="secondCheckbox">Lezione su bootstrap 5</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                      <label class="form-check-label" for="thirdCheckbox">Conquistare il mondo con Laravel</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <!-- grafico -->
-              <div class="col-12 bg-dark"></div>
+              <div class="col-12 mf-grafico mb-2">
+                <div class="card" >
+                  <img src="assets/img/chart.jpg" class="card-img-top" alt="grafico">
+                  <div class="card-body">
+                    <h5 class="card-title">Utenti attivi</h5>
+                    <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Gennaio: 1200</li>
+                    <li class="list-group-item">Febbraio: 800</li>
+                    <li class="list-group-item">Marzo: 1500</li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="#" class="card-link">Visualizza report approfondito</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

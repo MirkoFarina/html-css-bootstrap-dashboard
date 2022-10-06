@@ -6,6 +6,10 @@ body {
 img {
   max-width: 100%2;
 }
+
+.mf-aside {
+  font-family: 'Poppins', sans-serif;
+}
 /* /GENERAL */
 
 
@@ -116,7 +120,18 @@ tr td:last-child span{
   border: none;
   border-bottom: 1px solid #dee2e6;
 }
+.mf-accordion.accordion-item:last-child {
+  border: none;
+}
 /* /faq */
+
+/* grafico */
+.mf-grafico p,
+.mf-grafico li,
+.mf-grafico a {
+  font-size: .9rem;
+}
+/* /grafico */
 
 /* /RIGHT CONTENT MAIN */
 /* /MAIN */
