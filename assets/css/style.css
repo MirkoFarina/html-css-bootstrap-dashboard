@@ -77,6 +77,10 @@ header {
 }
 
 /* PROSSIME CLASSI */
+.mf-canvas.offcanvas.offcanvas-end {
+  width: 70vw;
+}
+
 
 th:nth-child(2), 
 td:nth-child(2), 
