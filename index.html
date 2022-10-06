@@ -20,16 +20,16 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
+  <header class="px-2">
     <nav class="navbar navbar-expand-lg h-100 d-flex align-items-center">
-      <div class="container-fluid mf-bg-header flex-nowrap">
+      <div class="container-fluid  mf-bg-header flex-nowrap px-3 ">
         <a class="navbar-brand" href="#">
           <img  class="d-none d-lg-inline-block"  src="assets/img/logo.svg" alt="logo">
           <img  class="d-lg-none logo-mobile"  src="assets/img/mobile-logo.png" alt="logo">
         </a>
         
-          <form class="container-fluid">
-            <div class="input-group">
+          <form class="container-fluid h-100 pe-0">
+            <div class="input-group h-100">
               <span class="input-group-text ps-1 p-0 mf-action" id="basic-addon1">
                 <i class="bi bi-search"></i>
               </span>
@@ -38,7 +38,7 @@
           </form>
       
         <div  id="navbarSupportedContent">
-          <ul class="navbar-nav  mb-2 mb-lg-0">
+          <ul class="navbar-nav  mb-2 mb-lg-0 mf-li">
             <li class="nav-item d-none d-lg-inline-block">
               <a class="nav-link active" aria-current="page" href="#">
                 <i class="bi bi-list-ul"></i>
@@ -183,7 +183,7 @@
                     <div class="offcanvas-body">
                       <form class="row g-3">
                         <div class="col-md-6">
-                          <label for="inputEmail4" class="form-label">Email</label>
+                          <label for="basic-addon1" class="form-label">Email</label>
                           <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1">@</span>
                             <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
@@ -445,38 +445,38 @@
                 </div>
 
                 <div class="card-body border-end border-start border-bottom rounded-bottom p-1">
-                  <div class="accordion" id="accordionExample">
-                    <div class="accordion-item mf-accordion">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                           Come si sviluppa un sistema di chat in real time?
                         </button>
                       </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                           boh, e chi lo sa!
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item mf-accordion">
-                      <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                           Posso usare position:absolute per allineare le colonne?
                         </button>
                       </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                         Stefano ti sta guardando.
+                          Stefano ti sta guardando.
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item mf-accordion" >
-                      <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                           Il mio sito è responsive?
                         </button>
                       </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                           Prova a restringere e lo scoprirai!
                         </div>

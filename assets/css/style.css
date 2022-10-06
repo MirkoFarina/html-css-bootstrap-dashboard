@@ -4,7 +4,7 @@ body {
 }
 
 img {
-  max-width: 100%2;
+  max-width: 100%;
 }
 
 .mf-aside {
@@ -22,6 +22,7 @@ header {
 
 .logo-mobile {
   width: 50px;
+  
 }
 
 .mf-bg-header {
@@ -31,6 +32,10 @@ header {
 .mf-action  {
   border: 2px solid #E5E5E5;
   background-color: #E5E5E5;
+}
+
+.mf-li li:not(li:first-child) {
+  margin-left: 10px;
 }
 
 .nav-item .nav-link .bi-bell-fill {
@@ -120,13 +125,7 @@ tr td:last-child span{
 /* PROSSIME CLASSI */
 
 /* faq */
-.mf-accordion.accordion-item {
-  border: none;
-  border-bottom: 1px solid #dee2e6;
-}
-.mf-accordion.accordion-item:last-child {
-  border: none;
-}
+
 /* /faq */
 
 /* grafico */
